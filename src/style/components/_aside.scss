@@ -1,0 +1,141 @@
+.aside {
+  position: fixed;
+  z-index: $z-navigation;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 60px;
+  backdrop-filter: blur(5px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid $primary;
+
+  @media all and (max-width: 920px) {
+    width: 50px;
+  }
+}
+
+.aside-share {
+  position: fixed;
+  z-index: 0;
+  bottom: 0;
+  right: 60px;
+  display: flex;
+  transform: translateX(150%);
+  transition: transform 0.2s ease-in-out;
+
+  @media all and (max-width: 920px) {
+    right: 50px;
+  }
+  
+}
+.aside-share--active {
+  transform: translateX(0);
+  background-color: $neutrel;
+}
+.aside-share__item {
+  width: 60px;
+  height: 60px;
+  border: 1px solid $tertiary-900;
+}
+.aside__icon-share {
+  width: 100%;
+  height: 100%;
+  color: $primary-400;
+}
+
+.aside-share__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  background-color: $neutrel ;
+}
+.aside-share__svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: $primary-400;
+}
+
+.aside__button {
+  @include button;
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid $primary;
+  border-bottom: 1px solid $primary;
+}
+
+.aside__button--active {
+  background-color: $neutrel ;
+}
+
+.aside__title {
+  font-weight: 700;
+  font-size: 18px;
+  writing-mode: vertical-rl;
+}
+
+
+.aside__burger {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid $primary;
+  border-top: 1px solid $primary;
+  position: relative;
+  z-index: 2;
+  display: block;
+  background-color: transparent;
+  cursor: pointer;
+
+    &::before {
+      content: "";
+      position: absolute;
+      height: 5px;
+      background-color: $primary-400;
+      margin: auto;
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+      top: 20px ;
+      right: 50%;
+      transform: translateX(50%);
+      width: 65%;
+      transform-origin: right;
+    }
+
+    &:after {
+      content: "";
+      position: absolute;
+      height: 5px;
+      background-color: $primary-400;
+      margin: auto;
+      width: 80%;
+      transition: all 0.3s ease-in-out;
+      border-radius: 5px;
+
+      bottom: 20px;
+      right: 50%;
+      transform: translateX(50%);
+      transform-origin: right;
+      background-color: $primary-400;
+    }
+  
+}
+
+.aside__burger--active {
+  background: $neutrel;
+  &::before {
+    width: 80%;
+  }
+  &::after {
+    width: 65%;
+  }
+}

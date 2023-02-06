@@ -1,0 +1,66 @@
+@mixin container-fix {
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: $z-container;
+  margin: auto adaptiv-prop(80, 50) auto adaptiv-prop(90, 15);
+}
+
+@mixin title{
+  font-size: adaptiv-prop(160, 50);
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: center;
+  background: linear-gradient(to bottom, $primary-600, #35283c);
+  background-attachment: fixed;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+@mixin subtitle {
+  text-align: center;
+  font-size: adaptiv-prop(140, 42);
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: adaptiv-prop(180, 60);
+}
+
+@mixin text {
+  margin-bottom:adaptiv-prop(140, 40) ;
+  font-size: adaptiv-prop(18, 15);
+  font-weight: 300;
+  width: 50%;
+  line-height: 150%;
+  font-family: Jost;
+  text-align: left;
+
+  @media  all and (max-width: 920px) {
+    width: 100%;
+    line-height: 110%;
+    font-size: 16px;
+  }
+}
+@mixin text-accent {
+  font-family: 'Noto Sans Mono';
+  font-size: adaptiv-prop(26, 17);
+  font-weight: 200;
+  color: $neutrel;
+  line-height: 150%;
+  width: 75%;
+  margin-right: auto;
+
+  @media  all and (max-width: 920px) {
+    width: 100%;
+    line-height: 120%;
+    font-size: 24px;
+  }
+}
+
+@mixin button {
+  cursor: pointer;
+}
+
+
+@mixin padding-block {
+  padding: adaptiv-prop(200, 70) 0;
+}
