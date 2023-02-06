@@ -4,6 +4,7 @@
 .galery__container {
   @include container-fix;
   position: relative;
+  overflow: hidden;
 }
 
 .galery__slider {
