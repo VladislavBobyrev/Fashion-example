@@ -1,0 +1,39 @@
+.runway {
+  @include padding-block;
+  background: #35283c;
+}
+.runway__container {
+  @include container-fix;  
+}
+
+.runway__title {
+  @include title
+}
+
+.runway__subtitle {
+  @include subtitle
+}
+
+.runway__text {
+  @include text;
+}
+
+.runway__text--accent {
+  @include text-accent;
+}
+
+.runway__text--position-left {
+  margin-right: auto;
+  // transition: 0.3s;
+}
+
+.runway__phone13 {
+  display: flex;
+  margin-left: auto;
+  // transition: 0.3s;
+  width: 600px;
+  max-width: 600px !important;
+  @media all and (max-width: 920px) {
+    max-width: 230px  !important;
+  }
+}

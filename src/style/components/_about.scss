@@ -1,0 +1,39 @@
+.about {
+  padding: adaptiv-prop(350, 70) 0 adaptiv-prop(200, 70);
+}
+
+.about__container {
+  @include container-fix;
+}
+
+.about__title {
+  @include title;
+}
+
+.about__subtitle {
+  @include subtitle;
+}
+
+.about__text {
+  @include text;
+}
+
+.about__text--accent {
+  @include text-accent;
+}
+
+.about__text--position-right {
+  margin-left: auto;
+}
+.about__text--position-left {
+  margin-right: auto;
+}
+
+.about__text--position-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__span {
+  color: $danger;
+}

@@ -1,0 +1,132 @@
+.footer {
+  padding: adaptiv-prop(100, 40) 0;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.footer__container {
+  @include container-fix;
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  gap: 3rem;
+
+  @media all and (max-width: 1200px) {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    row-gap: 1rem;
+  }
+}
+
+.footer-copurithing__logo {
+  font-size:adaptiv-prop(100, 40);
+  text-transform: uppercase;
+  font-weight: 700;
+  color: $primary-400;
+}
+
+.footer-menu__title {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
+.footer-copurithing__description {
+  font-size: 20px;
+  line-height: 160%;
+  color: $primary-400;
+  margin-bottom: 3rem;
+}
+
+.footer-copurithing__box {
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-copurithing__social {
+  background: $primary-400;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  color: $primary-400;
+
+  &:hover {
+    color: $secondary;
+    background: $tertiary;
+  }
+}
+
+.footer-menu__link {
+  color: $primary-400;
+  line-height: 200%;
+  font-size: 20px;
+
+  &:hover {
+    color: $tertiary;
+  }
+}
+
+.footer-menu-form {
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.footer-menu-pay {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-menu-form__input {
+  background: $secondary-200;
+  border-radius: 5px 0 0 5px;
+  padding-left: 5px;
+  color: $primary-400;
+  font-size: 16px;
+  padding: 13px;
+  margin: 20px 0;
+  border: 0;
+  height: 47px;
+  max-width: 190px;
+}
+
+.footer-menu-form__button {
+  background-color: $primary-600;
+  padding: 13px;
+  width: 47px;
+  height: 47px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  border:0;
+
+  &:hover {
+    box-shadow: 0px 15px 50px rgb(171 172 175 / 10%);
+    background: $primary-300;
+  }
+}
+
+.footer-copurithing__image {
+  width: 100%;
+  height: 100%;
+  color:$secondary;
+}
+
+.footer-menu-pay__image {
+  max-width: 150px;
+}
+.footer-menu-form__svg {
+  color: $secondary;
+  width: 100%;
+  height: 100%;
+}

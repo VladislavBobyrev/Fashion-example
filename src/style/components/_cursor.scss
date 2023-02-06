@@ -1,0 +1,30 @@
+#cursor {
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50px;
+  background: $primary-400;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: difference;
+  transform-origin: 80% 80%;
+  transition: transform 0.5s ease-in-out;
+  animation: borderAnim 4s linear infinite;
+  animation-name: none;
+  z-index: 10;
+}
+
+
+@keyframes borderAnim {
+  0%,
+  100% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  }
+  25%,
+  75% {
+    border-radius: 64% 36% 72% 28% / 35% 60% 40% 65%;
+  }
+  50% {
+    border-radius: 46% 54% 38% 62% / 66% 38% 62% 34%;
+  }
+}
