@@ -23,8 +23,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: adaptiv-prop(100, 40);
+  font-size: adaptiv-prop(100, 30);
   font-weight: 600;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -40,8 +41,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: adaptiv-prop(100, 40);
+  font-size: adaptiv-prop(100, 30);
   font-weight: 700;
   text-transform: uppercase;
   color: $primary-600;
+  justify-content: center;
 }
