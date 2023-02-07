@@ -37,3 +37,24 @@
 .about__span {
   color: $danger;
 }
+
+.about__button {
+  transition: .3s;
+  color:$primary;
+  cursor: pointer;
+  backdrop-filter: blur(10px);
+  border: 1px solid $tertiary-900;
+  width: 60%;
+  padding: 1.5rem;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: serif;
+  display: flex;
+  text-align: center;
+  
+  &:hover {
+    opacity: 0.7 ;
+    background: $primary-600;
+    color: $secondary;
+  }
+}
