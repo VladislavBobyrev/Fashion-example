@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ru" class="html">
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,12 +10,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="icon" href="./public/fav.png"/>
-  <meta
-  name="apple-mobile-web-app-status-bar-style"
-  content="black-transcluent"
-/>
-<meta name="theme-color" content="#a0aaff" />
-<meta name="msapplication-navbutton-color" content="#a0aaff" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-transcluent"/>
+  <meta name="theme-color" content="#a0aaff" />
+  <meta name="msapplication-navbutton-color" content="#a0aaff" />
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700;800;900&family=Noto+Sans+Mono:wght@400;500;600;700;800;900&display=swap"
     rel="stylesheet" />
@@ -63,427 +59,435 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
   <!-- moothscroll -->
-  <script
+  <!-- <script
   src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
   integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script> -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha256-huW7yWl7tNfP7lGk46XE+Sp0nCotjzYodhVKlwaNeco=" crossorigin="anonymous"></script>
   <!-- splittext -->
   <script src="https://unpkg.com/split-type"></script>
 </head>
-
-<body class="page">
-  <aside class="page__aside aside">
-    <button class="aside__burger"></button>
-    <h2 class="aside__title">Taipei Fashion Week SS23</h2>
-    <ul class="aside__share aside-share">
-      <li class="aside-share__item">
-        <a class="aside-share__link" href="tg://resolve?domain=VladislavBobyrev" target="_blank" rel="nofollow noopener">
-          <svg class="aside-share__svg">
-            <use xlink:href="#tg" />
-          </svg>
-        </a>
-      </li>
-      <li class="aside-share__item">
-        <a class="aside-share__link" hrefhref="https://github.com/VladislavBobyrev" target="_blank" rel="nofollow noopener">
-          <svg class="aside-share__svg">
-            <use xlink:href="#gh" />
-          </svg>
-        </a>
-      </li>
-    </ul>
-    <button class="aside__button">
-      <svg class="aside__icon-share">
-        <use xlink:href="#share" />
-      </svg>
-    </button>
-  </aside>
-  <nav class="nav">
-    <ul class="nav__list">
-      <li class="nav__item">
-        <a class="nav__link" href="#">About</a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#"> Show Timetalbe </a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#">Main Shows</a>
-        <ul class="nav__list nav__list--center">
-          <li class="nav__item nav__item--center">
-            <a class="nav__link nav__link--center" href="#">
-              Concept of Shows
-            </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--center " href="#"> participating Designers </a>
-          </li>
-          <li class="nav__item">
-            <a class="nav__link nav__link--center " href="#"> Link of participating brands </a>
-          </li>
-        </ul>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#"> Previous TPEFW </a>
-      </li>
-      <li class="nav__item">
-        <a class="nav__link" href="#"> external Links </a>
-      </li>
-    </ul>
-  </nav>
-  <a class="page__logo" href="contact.html">
-    <img src="./public/logo.svg" alt="logotype" />
-  </a>
-  <main class="page__main">
-    <section class="page__banner banner">
-      <picture class="banner__picture">
-        <source srcset="./public/model-s.png" media="(max-width: 600px)"/>
-        <img class="banner__image-model" src="./public/model.png"
-          alt="Image used when the browser does not support the sources" />
-      </picture>
-      <picture class="banner__picture">
-        <source srcset="./public/bg.jpg" media="(max-width: 600px)" />
-        <img class="banner__image-bg" src="./public/bg.jpg"
-          alt="Image used when the browser does not support the sources" />
-      </picture>
-      <picture class="banner__picture">
-        <source srcset="./public/circle2.png" media="(max-width: 600px)" />
-        <img class="banner__image-circle" src="./public/circle2.png"
-          alt="Image used when the browser does not support the sources" />
-      </picture>
-      <div class="banner__container">
-        <svg class="banner__svg-ss" viewBox="0 0 241.5 387.5">
-          <path d="M175.8,141.9c0,27.5-22.8,43.9-56.3,43.9c-13.6,0-27-3-34.9-5c-7.7-1.7-19.8-5.2-19.8,11.4h-1.2V130h1.2
-                          c0,22.8,23.5,54.5,54.8,54.5c22.6,0,41.4-15.6,41.4-35.9c0-49.8-92-45.1-92-99.6c0-29.5,22.8-41.4,49.3-41.4
-                          c13.9,0,25,4.2,35.9,7.2c8.9,2.2,12.6-0.2,12.6-13.9h1.2v62.5h-1.2c0-27-18.1-54.5-48.1-54.5c-16.1,0-36.7,9.4-36.7,33.5
-                          C82.1,89.6,175.8,89.1,175.8,141.9z" fill="currentColor"></path>
-          <path d="M93.7,145.3c0-24-20.6-33.5-36.7-33.5c-30,0-48.1,27.5-48.1,54.5H7.7v-62.5h1.2c0,13.6,3.7,16.1,12.6,13.9
-                          c10.9-3,22.1-7.2,35.9-7.2c26.5,0,49.3,11.9,49.3,41.4c0,54.5-92,49.8-92,99.6c0,20.3,18.8,35.9,41.4,35.9
-                          c31.2,0,54.8-31.7,54.8-54.5h1.2v62.2H111c0-16.6-12.1-13.1-19.8-11.4c-7.9,2-21.3,5-35,5C22.8,288.9,0,272.5,0,245
-                          C0,192.2,93.7,192.7,93.7,145.3z" fill="currentColor"></path>
-          <path d="M171.2,356.8l-4.7,28.8H68.1v-1.2c35.4-41.4,87-75.6,86.5-128.9c-0.2-21.6-13.4-44.6-36.2-44.6
-                          c-39.4,0-53.8,47.6-28.8,63.2c0,1.7,0,1.2,0,3c-26.3-12.1-19.8-67.2,32-67.2c22.1,0,49.1,10.2,49.1,45.6c0,41.6-41.9,64.9-90,117
-                          h55c18.1-0.2,29.5-2,34.5-15.6H171.2z" fill="currentColor"></path>
-          <path d="M241.4,241.5c-0.7,29.5-22.3,48.1-59.5,48.1c-16.1,0-32.5-4.2-46.8-12.1v-3.7c9.7,7.9,29.5,14.6,43.9,14.6
-                          c21.1,0,44.9-14.4,46.1-46.4c1.2-29.2-19.8-45.6-42.9-45.6c-2,0-8.4,0-13.4,0v-1.7c4,0,4.2,0,8.2,0c24.3,0,39.2-21.6,39.2-43.1
-                          c0-23.3-14.4-39.2-34.7-39.2c-39.7,0-50.6,48.1-24.8,63.2c0,1.7,0,1.2,0,3c-27-11.4-23.8-67.2,27.8-67.2c22.1,0,45.6,8.4,45.6,38.4
-                          c0,22.6-14.4,39.4-39.2,44.9C222.4,195.6,241.9,211,241.4,241.5z" fill="currentColor"></path>
-        </svg>
-        <h1 class="banner__title">taipei fashion week</h1>
-      </div>
-    </section>
-    <section class="page__about about">
-      <div class="about__container">
-        <h2 class="about__title">about</h2>
-        <h3 class="about__subtitle">ss23</h3>
-        <p class="about__text about__text--accent">
-          Even though we are currently under the shadow of Covid pandemic,
-          fashion is still unstoppably progressing. It is the fifth year of
-          Taipei Fashion Week, and the organizers have been expecting that
-          fashion is able to have crossover collaborations with diverse
-          cultures since year one, in order to have the fashion week in Taiwan
-          with its exclusive cultural expression in the world.
-        </p>
-        <p class="about__text about__text--position-right">
-          Taipei has been being surrounded by all sorts of fashion elements
-          since October. You are able to see the key visual of SS23 < Meet>
-            almost everywhere in Taipei, whether they are light boxes in metro
-            stations, posters on streets, and flags hanging on street lights.
-            The visual is two women wearing the garments designed by Yuma Taru
-            and Justin Chou. Their design manifests dynamics of the beauty of
-            indigenous crafts and modern fashion. The hidden history of culture
-            in the visual indicates the encounter between Dutch people and
-            Taiwan indigenous habitants. They learned the European cross-stitch
-            from these Dutch people. Then they met Japanese during Japanese
-            occupation era, and knew how to make headwear with kimono sense.
-            Now, we are in the 21st century, these indigenous artisans
-            inheriting the crafts from their ancestors, encounter fashion
-            designers living in a modern city. Together, they create original
-            works of Taiwan fashion. They prove that the process of fashion
-            evolution is actually the result of cultural encounters time after
-            time.
-        </p>
-        <p class="about__text about__text--accent">
-          The grand opening show of SS23 is
-          <span class="about__span">“CrossLab : Dialogue between Indigenous Art and Fashion”.</span>
-        </p>
-        <p class="about__text about__text--position-left">
-          It includes the introduction of five “National Living Treasures”,
-          who devoting their whole life to indigenous clothing culture. The
-          five artisans are from Seediq, Atayal, Kavalan, and Paiwan. They are
-          going to present 50 garments with another five contemporary fashion
-          designers, and guide fashion fanatics to walk through the time
-          corridor, and witness the origin of fashion of this island, and
-          leave a significant record in Taiwan fashion history.
-          <br />
-          <br />
-          14 brands participate SS23 fashion week, and they are #DAMUR、be
-          homme、C JEAN、DOUCHANGLEE、GIOIA PAN、INF、JENN LEE、Liyu
-          Tsai、oqLiq、Seivson、Story Wear、UUIN、WANGLILING、Yentity. In
-          addition, many people look forward to seeing the “New Breed” show ,
-          and the young talents’ works are available on the runway as well.
-          These young talents include “BOO”, winner of 2018 fashion design new
-          comer, “PCES”, grand prize winner of 2021 Hong Kong Redress Design
-          Award, and “WEI. TZU-YUAN”, SS22 Taipei Fashion Week New Talent.
-          Ministry of Education gave a tremendous support during the run-up of
-          Taipei Fashion Week as well, the campus audition campaign launched
-          last March, and gathered the top three and most popular works from
-          the graduation shows of universities with departments of fashion
-          education, such as Shih Chien University, Fu Jen Catholic
-          University, and Shu-Te University. In addition, there are works of
-          the winners of Kaohsiung Fashion Design Award and Taiwan Fashion
-          Design Award. All these creative works become a diverse and vibrant
-          “Young Talent” show, and the public is able to appreciate the strong
-          dynamic force of design.
-        </p>
-        <p class="about__text about__text--accent">
-          We are currently living in an unstable era, the boundary between the
-          value of tradition and avant-garde becomes vague, and a new force is
-          trying to set up a new order. SS23 Taipei Fashion Week utilizes
-          clothes as a carrier, and indigenous culture as a foundation, in
-          order to manifest the uniqueness of Taiwan contemporary aesthetics
-          and make a remarkable and vivid memory for the next generation.
-        </p>
-        <p class="about__text about__text--position-center">
-          Taipei Fashion Week launched a select shop last year during the
-          event, and received a very positive response. TFW collaborates with
-          Breeze Couture this season, and is going to launch an exclusive
-          select shop again from 10/14 to 11/30. Breeze Couture is located on
-          Daan Road, Taipei City, this road is regarded as a cradle of
-          nurturing Taiwan fashion designers.
-          <br />
-          <br />
-          Fashion pioneers such as Isabelle Wen and Jamei Chen both have a
-          boutique store here. Many Taiwan design brands are going to be in
-          the space of Breeze Couture this season. Breeze Group will assist
-          designers to upload their works on E-commerce websites, and intend
-          to have a contractual relationship with brands which are willing to
-          be in Breeze Couture on a long-term basis after TFW, and introduce
-          them to suitable overseas fashion buyers. By doing so, Breeze
-          Couture truly achieves to have Taiwan fashion liaise with
-          international market, and helps creators have more resources.
-        </p>
-      </div>
-    </section>
-    <section class="page__galery galery">
-      <div class="galery__container">
-        <div class="galery__slider">
-          <div class="galery__item">
-            <video class="galery__video" src="./public/video/05.mp4" loop muted preload="none" autoplay></video>
-            <div class="galery__box">
-              <h2 class="galery__title">
-                The “Indigenous” Point of Taiwan Fashion
-              </h2>
-              <h3 class="galery__subtitle">
-                Cross Lab:Dialogue between Indigenous Art & Fashion
-              </h3>
-              <span class="galery__time">14. Oct. 2022</span>
-              <button class="galery__button">discover more</button>
-            </div>
-          </div>
-          <div class="galery__item">
-            <video class="galery__video" src="./public/video/01.mp4" loop muted preload="none" autoplay></video>
-            <div class="galery__box">
-              <h2 class="galery__title">The Show</h2>
-              <h3 class="galery__subtitle">
-                Thirteen Designers Thirteen Shows
-              </h3>
-              <span class="galery__time">13 - 28. Oct. 2022</span>
-              <button class="galery__button">discover more</button>
-            </div>
-          </div>
-          <div class="galery__item">
-            <video class="galery__video" src="./public/video/02.mp4" loop muted preload="none" autoplay></video>
-            <div class="galery__box">
-              <h2 class="galery__title">New Breed</h2>
-              <h3 class="galery__subtitle">Three Designers One Shows</h3>
-              <span class="galery__time">17. Oct. 2022</span>
-              <button class="galery__button">discover more</button>
-            </div>
-          </div>
-          <div class="galery__item">
-            <video class="galery__video" src="./public/video/03.mp4" loop muted preload="none" autoplay></video>
-            <div class="galery__box">
-              <h2 class="galery__title">Young Talent</h2>
-              <h3 class="galery__subtitle">
-                The Ministry of Education and the Ministry of Culture jointly
-                organized
-              </h3>
-              <span class="galery__time">17. Oct. 2022</span>
-              <button class="galery__button">discover more</button>
-            </div>
-          </div>
-          <div class="galery__item">
-            <video class="galery__video" src="./public/video/04.mp4" loop muted preload="none" autoplay></video>
-            <div class="galery__box">
-              <h2 class="galery__title">TAIWAN FASHION DESIGN AWARD</h2>
-              <h3 class="galery__subtitle">
-                TFDA, the most iconic large-scale fashion contest in Asia
-              </h3>
-              <span class="galery__time">13. Oct. 2022</span>
-              <button class="galery__button">discover more</button>
-            </div>
-          </div>
-        </div>
-        <svg class="galery__svg-ss" viewBox="0 0 241.5 387.5">
-          <path d="M175.8,141.9c0,27.5-22.8,43.9-56.3,43.9c-13.6,0-27-3-34.9-5c-7.7-1.7-19.8-5.2-19.8,11.4h-1.2V130h1.2
-                          c0,22.8,23.5,54.5,54.8,54.5c22.6,0,41.4-15.6,41.4-35.9c0-49.8-92-45.1-92-99.6c0-29.5,22.8-41.4,49.3-41.4
-                          c13.9,0,25,4.2,35.9,7.2c8.9,2.2,12.6-0.2,12.6-13.9h1.2v62.5h-1.2c0-27-18.1-54.5-48.1-54.5c-16.1,0-36.7,9.4-36.7,33.5
-                          C82.1,89.6,175.8,89.1,175.8,141.9z" fill="currentColor"></path>
-          <path d="M93.7,145.3c0-24-20.6-33.5-36.7-33.5c-30,0-48.1,27.5-48.1,54.5H7.7v-62.5h1.2c0,13.6,3.7,16.1,12.6,13.9
-                          c10.9-3,22.1-7.2,35.9-7.2c26.5,0,49.3,11.9,49.3,41.4c0,54.5-92,49.8-92,99.6c0,20.3,18.8,35.9,41.4,35.9
-                          c31.2,0,54.8-31.7,54.8-54.5h1.2v62.2H111c0-16.6-12.1-13.1-19.8-11.4c-7.9,2-21.3,5-35,5C22.8,288.9,0,272.5,0,245
-                          C0,192.2,93.7,192.7,93.7,145.3z" fill="currentColor"></path>
-          <path d="M171.2,356.8l-4.7,28.8H68.1v-1.2c35.4-41.4,87-75.6,86.5-128.9c-0.2-21.6-13.4-44.6-36.2-44.6
-                          c-39.4,0-53.8,47.6-28.8,63.2c0,1.7,0,1.2,0,3c-26.3-12.1-19.8-67.2,32-67.2c22.1,0,49.1,10.2,49.1,45.6c0,41.6-41.9,64.9-90,117
-                          h55c18.1-0.2,29.5-2,34.5-15.6H171.2z" fill="currentColor"></path>
-          <path d="M241.4,241.5c-0.7,29.5-22.3,48.1-59.5,48.1c-16.1,0-32.5-4.2-46.8-12.1v-3.7c9.7,7.9,29.5,14.6,43.9,14.6
-                          c21.1,0,44.9-14.4,46.1-46.4c1.2-29.2-19.8-45.6-42.9-45.6c-2,0-8.4,0-13.4,0v-1.7c4,0,4.2,0,8.2,0c24.3,0,39.2-21.6,39.2-43.1
-                          c0-23.3-14.4-39.2-34.7-39.2c-39.7,0-50.6,48.1-24.8,63.2c0,1.7,0,1.2,0,3c-27-11.4-23.8-67.2,27.8-67.2c22.1,0,45.6,8.4,45.6,38.4
-                          c0,22.6-14.4,39.4-39.2,44.9C222.4,195.6,241.9,211,241.4,241.5z" fill="currentColor"></path>
-        </svg>
-      </div>
-    </section>
-    <section class="page__runway runway">
-      <div class="runway__container">
-        <h2 class="runway__title">runway</h2>
-        <h3 class="runway__subtitle">timelab</h3>
-        <p class="runway__text runway__text--accent">
-          Новые камеры помещаются даже в iPhone 13 mini
-          <br>
-          <span class="runway__span">Можно ли здесь уместить такие мощные камеры?
-        </p>
-        <p class="runway__text runway__text--position-left">
-          Да, по диагонали
-          Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому
-          внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры.
-          Кроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили
-          скорость работы матрицы на сверх­широко­угольной камере.
-
-          Новая сверх­широко­угольная камера видит больше деталей в тёмных областях снимков
-
-          Новая широко­угольная камера улавливает на 47% больше света для более качественных фотографий и видео
-
-          Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении
-        </p>
-        <img class="runway__phone13" src="./public/phone13_large.jpg" alt="">
-      </div>
-    </section>
-    <footer class="page__footer footer">
-      <div class="footer__container">
-        <div class="footer__copurithing footer-copurithing">
-          <a class="footer-copurithing__logo" href="#">
-            Developer vladislav <span class="header-logo__span">Bobyrev</span>
+<body class="page"  data-barba="wrapper">
+  <div class="page__inner"   data-barba="container" data-barba-namespace="home">
+    <aside class="page__aside aside">
+      <button class="aside__burger"></button>
+      <h2 class="aside__title">Taipei Fashion Week SS23</h2>
+      <ul class="aside__share aside-share">
+        <li class="aside-share__item">
+          <a class="aside-share__link" href="tg://resolve?domain=VladislavBobyrev" target="_blank" rel="nofollow noopener">
+            <svg class="aside-share__svg">
+              <use xlink:href="#tg" />
+            </svg>
           </a>
-          <p class="footer-copurithing__description">
-            Для связи со мной воспользуйтесь приложениями  
+        </li>
+        <li class="aside-share__item">
+          <a class="aside-share__link" hrefhref="https://github.com/VladislavBobyrev" target="_blank" rel="nofollow noopener">
+            <svg class="aside-share__svg">
+              <use xlink:href="#gh" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+      <button class="aside__button">
+        <svg class="aside__icon-share">
+          <use xlink:href="#share" />
+        </svg>
+      </button>
+    </aside>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html">About</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html"> Show Timetalbe </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html">Main Shows</a>
+          <ul class="nav__list nav__list--center">
+            <li class="nav__item nav__item--center">
+              <a class="nav__link nav__link--center" href="contact.html">
+                Concept of Shows
+              </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--center " href="contact.html"> participating Designers </a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link nav__link--center " href="contact.html"> Link of participating brands </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html"> Previous TPEFW </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link" href="contact.html"> external Links </a>
+        </li>
+      </ul>
+    </nav>
+    <a class="page__logo" href="contact.html">
+      <img src="./public/logo.svg" alt="logotype" />
+    </a>
+    <main class="page__main">
+      <section class="page__banner banner">
+        <picture class="banner__picture">
+          <source srcset="./public/model-s.png" media="(max-width: 600px)"/>
+          <img class="banner__image-model" src="./public/model.png"
+            alt="Image used when the browser does not support the sources" />
+        </picture>
+        <picture class="banner__picture">
+          <source srcset="./public/bg.jpg" media="(max-width: 600px)" />
+          <img class="banner__image-bg" src="./public/bg.jpg"
+            alt="Image used when the browser does not support the sources" />
+        </picture>
+        <picture class="banner__picture">
+          <source srcset="./public/circle2.png" media="(max-width: 600px)" />
+          <img class="banner__image-circle" src="./public/circle2.png"
+            alt="Image used when the browser does not support the sources" />
+        </picture>
+        <div class="banner__container">
+          <svg class="banner__svg-ss" viewBox="0 0 241.5 387.5">
+            <path d="M175.8,141.9c0,27.5-22.8,43.9-56.3,43.9c-13.6,0-27-3-34.9-5c-7.7-1.7-19.8-5.2-19.8,11.4h-1.2V130h1.2
+                            c0,22.8,23.5,54.5,54.8,54.5c22.6,0,41.4-15.6,41.4-35.9c0-49.8-92-45.1-92-99.6c0-29.5,22.8-41.4,49.3-41.4
+                            c13.9,0,25,4.2,35.9,7.2c8.9,2.2,12.6-0.2,12.6-13.9h1.2v62.5h-1.2c0-27-18.1-54.5-48.1-54.5c-16.1,0-36.7,9.4-36.7,33.5
+                            C82.1,89.6,175.8,89.1,175.8,141.9z" fill="currentColor"></path>
+            <path d="M93.7,145.3c0-24-20.6-33.5-36.7-33.5c-30,0-48.1,27.5-48.1,54.5H7.7v-62.5h1.2c0,13.6,3.7,16.1,12.6,13.9
+                            c10.9-3,22.1-7.2,35.9-7.2c26.5,0,49.3,11.9,49.3,41.4c0,54.5-92,49.8-92,99.6c0,20.3,18.8,35.9,41.4,35.9
+                            c31.2,0,54.8-31.7,54.8-54.5h1.2v62.2H111c0-16.6-12.1-13.1-19.8-11.4c-7.9,2-21.3,5-35,5C22.8,288.9,0,272.5,0,245
+                            C0,192.2,93.7,192.7,93.7,145.3z" fill="currentColor"></path>
+            <path d="M171.2,356.8l-4.7,28.8H68.1v-1.2c35.4-41.4,87-75.6,86.5-128.9c-0.2-21.6-13.4-44.6-36.2-44.6
+                            c-39.4,0-53.8,47.6-28.8,63.2c0,1.7,0,1.2,0,3c-26.3-12.1-19.8-67.2,32-67.2c22.1,0,49.1,10.2,49.1,45.6c0,41.6-41.9,64.9-90,117
+                            h55c18.1-0.2,29.5-2,34.5-15.6H171.2z" fill="currentColor"></path>
+            <path d="M241.4,241.5c-0.7,29.5-22.3,48.1-59.5,48.1c-16.1,0-32.5-4.2-46.8-12.1v-3.7c9.7,7.9,29.5,14.6,43.9,14.6
+                            c21.1,0,44.9-14.4,46.1-46.4c1.2-29.2-19.8-45.6-42.9-45.6c-2,0-8.4,0-13.4,0v-1.7c4,0,4.2,0,8.2,0c24.3,0,39.2-21.6,39.2-43.1
+                            c0-23.3-14.4-39.2-34.7-39.2c-39.7,0-50.6,48.1-24.8,63.2c0,1.7,0,1.2,0,3c-27-11.4-23.8-67.2,27.8-67.2c22.1,0,45.6,8.4,45.6,38.4
+                            c0,22.6-14.4,39.4-39.2,44.9C222.4,195.6,241.9,211,241.4,241.5z" fill="currentColor"></path>
+          </svg>
+          <h1 class="banner__title">taipei fashion week</h1>
+        </div>
+      </section>
+      <section class="page__about about">
+        <div class="about__container">
+          <h2 class="about__title">about</h2>
+          <h3 class="about__subtitle">ss23</h3>
+          <p class="about__text about__text--accent">
+            Even though we are currently under the shadow of Covid pandemic,
+            fashion is still unstoppably progressing. It is the fifth year of
+            Taipei Fashion Week, and the organizers have been expecting that
+            fashion is able to have crossover collaborations with diverse
+            cultures since year one, in order to have the fashion week in Taiwan
+            with its exclusive cultural expression in the world.
           </p>
-          <div class="footer-copurithing__box">
-            <a class="footer-copurithing__social" href="tg://resolve?domain=VladislavBobyrev" target="_blank" rel="nofollow noopener">
-              <svg class="footer-copurithing__image">
-                <use xlink:href="#tg" />
-              </svg>
+          <p class="about__text about__text--position-right">
+            Taipei has been being surrounded by all sorts of fashion elements
+            since October. You are able to see the key visual of SS23 < Meet>
+              almost everywhere in Taipei, whether they are light boxes in metro
+              stations, posters on streets, and flags hanging on street lights.
+              The visual is two women wearing the garments designed by Yuma Taru
+              and Justin Chou. Their design manifests dynamics of the beauty of
+              indigenous crafts and modern fashion. The hidden history of culture
+              in the visual indicates the encounter between Dutch people and
+              Taiwan indigenous habitants. They learned the European cross-stitch
+              from these Dutch people. Then they met Japanese during Japanese
+              occupation era, and knew how to make headwear with kimono sense.
+              Now, we are in the 21st century, these indigenous artisans
+              inheriting the crafts from their ancestors, encounter fashion
+              designers living in a modern city. Together, they create original
+              works of Taiwan fashion. They prove that the process of fashion
+              evolution is actually the result of cultural encounters time after
+              time.
+          </p>
+          <p class="about__text about__text--accent">
+            The grand opening show of SS23 is
+            <span class="about__span">“CrossLab : Dialogue between Indigenous Art and Fashion”.</span>
+          </p>
+          <p class="about__text about__text--position-left">
+            It includes the introduction of five “National Living Treasures”,
+            who devoting their whole life to indigenous clothing culture. The
+            five artisans are from Seediq, Atayal, Kavalan, and Paiwan. They are
+            going to present 50 garments with another five contemporary fashion
+            designers, and guide fashion fanatics to walk through the time
+            corridor, and witness the origin of fashion of this island, and
+            leave a significant record in Taiwan fashion history.
+            <br />
+            <br />
+            14 brands participate SS23 fashion week, and they are #DAMUR、be
+            homme、C JEAN、DOUCHANGLEE、GIOIA PAN、INF、JENN LEE、Liyu
+            Tsai、oqLiq、Seivson、Story Wear、UUIN、WANGLILING、Yentity. In
+            addition, many people look forward to seeing the “New Breed” show ,
+            and the young talents’ works are available on the runway as well.
+            These young talents include “BOO”, winner of 2018 fashion design new
+            comer, “PCES”, grand prize winner of 2021 Hong Kong Redress Design
+            Award, and “WEI. TZU-YUAN”, SS22 Taipei Fashion Week New Talent.
+            Ministry of Education gave a tremendous support during the run-up of
+            Taipei Fashion Week as well, the campus audition campaign launched
+            last March, and gathered the top three and most popular works from
+            the graduation shows of universities with departments of fashion
+            education, such as Shih Chien University, Fu Jen Catholic
+            University, and Shu-Te University. In addition, there are works of
+            the winners of Kaohsiung Fashion Design Award and Taiwan Fashion
+            Design Award. All these creative works become a diverse and vibrant
+            “Young Talent” show, and the public is able to appreciate the strong
+            dynamic force of design.
+          </p>
+          <p class="about__text about__text--accent">
+            We are currently living in an unstable era, the boundary between the
+            value of tradition and avant-garde becomes vague, and a new force is
+            trying to set up a new order. SS23 Taipei Fashion Week utilizes
+            clothes as a carrier, and indigenous culture as a foundation, in
+            order to manifest the uniqueness of Taiwan contemporary aesthetics
+            and make a remarkable and vivid memory for the next generation.
+          </p>
+          <p class="about__text about__text--position-center">
+            Taipei Fashion Week launched a select shop last year during the
+            event, and received a very positive response. TFW collaborates with
+            Breeze Couture this season, and is going to launch an exclusive
+            select shop again from 10/14 to 11/30. Breeze Couture is located on
+            Daan Road, Taipei City, this road is regarded as a cradle of
+            nurturing Taiwan fashion designers.
+            <br />
+            <br />
+            Fashion pioneers such as Isabelle Wen and Jamei Chen both have a
+            boutique store here. Many Taiwan design brands are going to be in
+            the space of Breeze Couture this season. Breeze Group will assist
+            designers to upload their works on E-commerce websites, and intend
+            to have a contractual relationship with brands which are willing to
+            be in Breeze Couture on a long-term basis after TFW, and introduce
+            them to suitable overseas fashion buyers. By doing so, Breeze
+            Couture truly achieves to have Taiwan fashion liaise with
+            international market, and helps creators have more resources.
+          </p>
+        </div>
+      </section>
+      <section class="page__galery galery">
+        <div class="galery__container">
+          <div class="galery__slider">
+            <div class="galery__item">
+              <video class="galery__video" src="./public/video/05.mp4" loop muted preload="none" autoplay></video>
+              <div class="galery__box">
+                <h2 class="galery__title">
+                  The “Indigenous” Point of Taiwan Fashion
+                </h2>
+                <h3 class="galery__subtitle">
+                  Cross Lab:Dialogue between Indigenous Art & Fashion
+                </h3>
+                <span class="galery__time">14. Oct. 2022</span>
+                <button class="galery__button">discover more</button>
+              </div>
+            </div>
+            <div class="galery__item">
+              <video class="galery__video" src="./public/video/01.mp4" loop muted preload="none" autoplay></video>
+              <div class="galery__box">
+                <h2 class="galery__title">The Show</h2>
+                <h3 class="galery__subtitle">
+                  Thirteen Designers Thirteen Shows
+                </h3>
+                <span class="galery__time">13 - 28. Oct. 2022</span>
+                <button class="galery__button">discover more</button>
+              </div>
+            </div>
+            <div class="galery__item">
+              <video class="galery__video" src="./public/video/02.mp4" loop muted preload="none" autoplay></video>
+              <div class="galery__box">
+                <h2 class="galery__title">New Breed</h2>
+                <h3 class="galery__subtitle">Three Designers One Shows</h3>
+                <span class="galery__time">17. Oct. 2022</span>
+                <button class="galery__button">discover more</button>
+              </div>
+            </div>
+            <div class="galery__item">
+              <video class="galery__video" src="./public/video/03.mp4" loop muted preload="none" autoplay></video>
+              <div class="galery__box">
+                <h2 class="galery__title">Young Talent</h2>
+                <h3 class="galery__subtitle">
+                  The Ministry of Education and the Ministry of Culture jointly
+                  organized
+                </h3>
+                <span class="galery__time">17. Oct. 2022</span>
+                <button class="galery__button">discover more</button>
+              </div>
+            </div>
+            <div class="galery__item">
+              <video class="galery__video" src="./public/video/04.mp4" loop muted preload="none" autoplay></video>
+              <div class="galery__box">
+                <h2 class="galery__title">TAIWAN FASHION DESIGN AWARD</h2>
+                <h3 class="galery__subtitle">
+                  TFDA, the most iconic large-scale fashion contest in Asia
+                </h3>
+                <span class="galery__time">13. Oct. 2022</span>
+                <button class="galery__button">discover more</button>
+              </div>
+            </div>
+          </div>
+          <svg class="galery__svg-ss" viewBox="0 0 241.5 387.5">
+            <path d="M175.8,141.9c0,27.5-22.8,43.9-56.3,43.9c-13.6,0-27-3-34.9-5c-7.7-1.7-19.8-5.2-19.8,11.4h-1.2V130h1.2
+                            c0,22.8,23.5,54.5,54.8,54.5c22.6,0,41.4-15.6,41.4-35.9c0-49.8-92-45.1-92-99.6c0-29.5,22.8-41.4,49.3-41.4
+                            c13.9,0,25,4.2,35.9,7.2c8.9,2.2,12.6-0.2,12.6-13.9h1.2v62.5h-1.2c0-27-18.1-54.5-48.1-54.5c-16.1,0-36.7,9.4-36.7,33.5
+                            C82.1,89.6,175.8,89.1,175.8,141.9z" fill="currentColor"></path>
+            <path d="M93.7,145.3c0-24-20.6-33.5-36.7-33.5c-30,0-48.1,27.5-48.1,54.5H7.7v-62.5h1.2c0,13.6,3.7,16.1,12.6,13.9
+                            c10.9-3,22.1-7.2,35.9-7.2c26.5,0,49.3,11.9,49.3,41.4c0,54.5-92,49.8-92,99.6c0,20.3,18.8,35.9,41.4,35.9
+                            c31.2,0,54.8-31.7,54.8-54.5h1.2v62.2H111c0-16.6-12.1-13.1-19.8-11.4c-7.9,2-21.3,5-35,5C22.8,288.9,0,272.5,0,245
+                            C0,192.2,93.7,192.7,93.7,145.3z" fill="currentColor"></path>
+            <path d="M171.2,356.8l-4.7,28.8H68.1v-1.2c35.4-41.4,87-75.6,86.5-128.9c-0.2-21.6-13.4-44.6-36.2-44.6
+                            c-39.4,0-53.8,47.6-28.8,63.2c0,1.7,0,1.2,0,3c-26.3-12.1-19.8-67.2,32-67.2c22.1,0,49.1,10.2,49.1,45.6c0,41.6-41.9,64.9-90,117
+                            h55c18.1-0.2,29.5-2,34.5-15.6H171.2z" fill="currentColor"></path>
+            <path d="M241.4,241.5c-0.7,29.5-22.3,48.1-59.5,48.1c-16.1,0-32.5-4.2-46.8-12.1v-3.7c9.7,7.9,29.5,14.6,43.9,14.6
+                            c21.1,0,44.9-14.4,46.1-46.4c1.2-29.2-19.8-45.6-42.9-45.6c-2,0-8.4,0-13.4,0v-1.7c4,0,4.2,0,8.2,0c24.3,0,39.2-21.6,39.2-43.1
+                            c0-23.3-14.4-39.2-34.7-39.2c-39.7,0-50.6,48.1-24.8,63.2c0,1.7,0,1.2,0,3c-27-11.4-23.8-67.2,27.8-67.2c22.1,0,45.6,8.4,45.6,38.4
+                            c0,22.6-14.4,39.4-39.2,44.9C222.4,195.6,241.9,211,241.4,241.5z" fill="currentColor"></path>
+          </svg>
+        </div>
+      </section>
+      <section class="page__runway runway">
+        <div class="runway__container">
+          <h2 class="runway__title">runway</h2>
+          <h3 class="runway__subtitle">timelab</h3>
+          <p class="runway__text runway__text--accent">
+            Новые камеры помещаются даже в iPhone 13 mini
+            <br>
+            <span class="runway__span">Можно ли здесь уместить такие мощные камеры?
+          </p>
+          <p class="runway__text runway__text--position-left">
+            Да, по диагонали
+            Мы разработали совершенно новую схему расположения и развернули объективы на 45 градусов. Благодаря этому
+            внутри корпуса поместилась наша лучшая система двух камер с увеличенной матрицей широкоугольной камеры.
+            Кроме того, мы освободили место для системы оптической стабилизации изображения сдвигом матрицы. И повысили
+            скорость работы матрицы на сверх­широко­угольной камере.
+  
+            Новая сверх­широко­угольная камера видит больше деталей в тёмных областях снимков
+  
+            Новая широко­угольная камера улавливает на 47% больше света для более качественных фотографий и видео
+  
+            Новая оптическая стабилизация со сдвигом матрицы обеспечит чёткие кадры даже в неустойчивом положении
+          </p>
+          <img class="runway__phone13" src="./public/phone13_large.jpg" alt="">
+        </div>
+      </section>
+      <footer class="page__footer footer">
+        <div class="footer__container">
+          <div class="footer__copurithing footer-copurithing">
+            <a class="footer-copurithing__logo" href="contact.html">
+              Developer vladislav <span class="header-logo__span">Bobyrev</span>
             </a>
-            <a class="footer-copurithing__social" href="https://github.com/VladislavBobyrev" target="_blank" rel="nofollow noopener">
-              <svg class="footer-copurithing__image">
-                <use xlink:href="#gh"/>
-              </svg>
-            </a>
+            <p class="footer-copurithing__description">
+              Для связи со мной воспользуйтесь приложениями  
+            </p>
+            <div class="footer-copurithing__box">
+              <a class="footer-copurithing__social" href="tg://resolve?domain=VladislavBobyrev" target="_blank" rel="nofollow noopener">
+                <svg class="footer-copurithing__image">
+                  <use xlink:href="#tg" />
+                </svg>
+              </a>
+              <a class="footer-copurithing__social" href="https://github.com/VladislavBobyrev" target="_blank" rel="nofollow noopener">
+                <svg class="footer-copurithing__image">
+                  <use xlink:href="#gh"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="footer__menu footer-menu">
+            <h3 class="footer-menu__title">Our Menu</h3>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Breakfast</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Lunch</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Dinner</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="footer__menu footer-menu">
+            <h3 class="footer-menu__title">UsefulLinks</h3>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Terms & Conditions</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Services</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Payment & Tax</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Support</a>
+              </li>
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Return Policy</a>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="footer__menu footer-menu">
+            <h3 class="footer-menu__title">Information</h3>
+            <ul class="footer-menu__list">
+              <li class="footer-menu__item">
+                <a class="footer-menu__link" href="contact.html">Get Update</a>
+              </li>
+              <li class="footer-menu__item">
+                <form class="footer-menu__form footer-menu-form">
+                  <input
+                    class="footer-menu-form__input"
+                    type="text"
+                    placeholder="Email Address..."
+                  />
+                  <button
+                    class="footer-menu-form__button"
+                    type="submit"
+                    name="button"
+                  >
+                    <svg class="footer-menu-form__svg">
+                      <use xlink:href="#arrow" />
+                    </svg>
+                  </button>
+                </form>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="footer__menu footer-menu">
-          <h3 class="footer-menu__title">Our Menu</h3>
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Breakfast</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Lunch</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Dinner</a>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="footer__menu footer-menu">
-          <h3 class="footer-menu__title">UsefulLinks</h3>
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Terms & Conditions</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Services</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Payment & Tax</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Support</a>
-            </li>
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Return Policy</a>
-            </li>
-          </ul>
-        </div>
-  
-        <div class="footer__menu footer-menu">
-          <h3 class="footer-menu__title">Information</h3>
-          <ul class="footer-menu__list">
-            <li class="footer-menu__item">
-              <a class="footer-menu__link" href="#">Get Update</a>
-            </li>
-            <li class="footer-menu__item">
-              <form class="footer-menu__form footer-menu-form">
-                <input
-                  class="footer-menu-form__input"
-                  type="text"
-                  placeholder="Email Address..."
-                />
-                <button
-                  class="footer-menu-form__button"
-                  type="submit"
-                  name="button"
-                >
-                  <svg class="footer-menu-form__svg">
-                    <use xlink:href="#arrow" />
-                  </svg>
-                </button>
-              </form>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </footer>
-  </main>
-  <div id="cursor"></div>
-  <svg class="visualy-hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
-    <symbol id="arrow" viewBox="0 0 16 16" fill='none'>
-      <path
-        d="M0.991166 6.11664L14.6254 1.50174C14.6746 1.4849 14.7276 1.48266 14.778 1.4953C14.8284 1.50794 14.8741 1.53492 14.9096 1.57298C14.945 1.61103 14.9687 1.65853 14.9777 1.70975C14.9867 1.76096 14.9807 1.8137 14.9604 1.86158L9.39077 15.1367C9.3687 15.1871 9.33174 15.2295 9.28485 15.2582C9.23797 15.287 9.1834 15.3007 9.1285 15.2975C9.07361 15.2943 9.021 15.2743 8.97777 15.2403C8.93454 15.2064 8.90275 15.1599 8.88668 15.1073L6.81825 9.43957C6.79463 9.35945 6.75271 9.28592 6.69579 9.2248C6.63887 9.16368 6.56852 9.11663 6.49029 9.08739L0.984607 6.62366C0.932604 6.60428 0.887861 6.5693 0.856499 6.52351C0.825138 6.47771 0.808691 6.42335 0.809409 6.36784C0.810127 6.31234 0.827975 6.25842 0.86051 6.21345C0.893046 6.16848 0.938679 6.13467 0.991166 6.11664V6.11664Z"
-        stroke="currentColor"
-        stroke-width="1.04988"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-      <path
-        d="M14.8527 1.62649L6.73771 9.18625"
-        stroke="currentColor"
-        stroke-width="1.04988"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      />
-    </symbol>
-    <symbol id="gh">
-      <path xmlns="http://www.w3.org/2000/svg" d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z" fill="currentColor"/>
-    </symbol>
-    <symbol id="tg">
-      <path xmlns="http://www.w3.org/2000/svg" d="M 25.154297 3.984375 C 24.829241 3.998716 24.526384 4.0933979 24.259766 4.2011719 C 24.010014 4.3016357 23.055766 4.7109106 21.552734 5.3554688 C 20.048394 6.0005882 18.056479 6.855779 15.931641 7.7695312 C 11.681964 9.5970359 6.9042108 11.654169 4.4570312 12.707031 C 4.3650097 12.746607 4.0439208 12.849183 3.703125 13.115234 C 3.3623292 13.381286 3 13.932585 3 14.546875 C 3 15.042215 3.2360676 15.534319 3.5332031 15.828125 C 3.8303386 16.121931 4.144747 16.267067 4.4140625 16.376953 C 5.3912284 16.775666 8.4218473 18.015862 8.9941406 18.25 C 9.195546 18.866983 10.29249 22.222526 10.546875 23.044922 C 10.714568 23.587626 10.874198 23.927519 11.082031 24.197266 C 11.185948 24.332139 11.306743 24.45034 11.453125 24.542969 C 11.511635 24.579989 11.575789 24.608506 11.640625 24.634766 L 11.644531 24.636719 C 11.659471 24.642719 11.67235 24.652903 11.6875 24.658203 C 11.716082 24.668202 11.735202 24.669403 11.773438 24.677734 C 11.925762 24.726927 12.079549 24.757812 12.216797 24.757812 C 12.80196 24.757814 13.160156 24.435547 13.160156 24.435547 L 13.181641 24.419922 L 16.191406 21.816406 L 19.841797 25.269531 C 19.893193 25.342209 20.372542 26 21.429688 26 C 22.057386 26 22.555319 25.685026 22.875 25.349609 C 23.194681 25.014192 23.393848 24.661807 23.478516 24.21875 L 23.478516 24.216797 C 23.557706 23.798129 26.921875 6.5273437 26.921875 6.5273438 L 26.916016 6.5507812 C 27.014496 6.1012683 27.040303 5.6826405 26.931641 5.2695312 C 26.822973 4.8564222 26.536648 4.4608905 26.181641 4.2480469 C 25.826669 4.0352506 25.479353 3.9700339 25.154297 3.984375 z M 24.966797 6.0742188 C 24.961997 6.1034038 24.970391 6.0887279 24.962891 6.1230469 L 24.960938 6.1347656 L 24.958984 6.1464844 C 24.958984 6.1464844 21.636486 23.196371 21.513672 23.845703 C 21.522658 23.796665 21.481573 23.894167 21.439453 23.953125 C 21.379901 23.91208 21.257812 23.859375 21.257812 23.859375 L 21.238281 23.837891 L 16.251953 19.121094 L 12.726562 22.167969 L 13.775391 17.96875 C 13.775391 17.96875 20.331562 11.182109 20.726562 10.787109 C 21.044563 10.471109 21.111328 10.360953 21.111328 10.251953 C 21.111328 10.105953 21.035234 10 20.865234 10 C 20.712234 10 20.506484 10.14875 20.396484 10.21875 C 18.963383 11.132295 12.671823 14.799141 9.8515625 16.439453 C 9.4033769 16.256034 6.2896636 14.981472 5.234375 14.550781 C 5.242365 14.547281 5.2397349 14.548522 5.2480469 14.544922 C 7.6958673 13.491784 12.47163 11.434667 16.720703 9.6074219 C 18.84524 8.6937992 20.838669 7.8379587 22.341797 7.1933594 C 23.821781 6.5586849 24.850125 6.1218894 24.966797 6.0742188 z" fill="currentColor"/>
-    </symbol>
-    <symbol id="share" viewBox="0 0 48 48" fill="none">
-      <path xmlns="http://www.w3.org/2000/svg" d="M 41 2 C 37.145851 2 34 5.1458514 34 9 C 34 10.842988 34.724355 12.518937 35.896484 13.771484 L 27.525391 24 L 15.919922 24 C 15.430748 20.617539 12.513828 18 9 18 C 5.1458514 18 2 21.145851 2 25 C 2 28.854149 5.1458514 32 9 32 C 12.513828 32 15.430748 29.382461 15.919922 26 L 27.501953 26 L 35.535156 36.640625 C 34.5767 37.838633 34 39.353257 34 41 C 34 44.854149 37.145851 48 41 48 C 44.854149 48 48 44.854149 48 41 C 48 37.145851 44.854149 34 41 34 C 39.515247 34 38.13907 34.471256 37.003906 35.265625 L 29.271484 25.025391 L 37.455078 15.021484 C 38.496931 15.638103 39.706395 16 41 16 C 44.854149 16 48 12.854149 48 9 C 48 5.1458514 44.854149 2 41 2 z M 41 4 C 43.773268 4 46 6.2267316 46 9 C 46 11.773268 43.773268 14 41 14 C 38.226732 14 36 11.773268 36 9 C 36 6.2267316 38.226732 4 41 4 z M 9 20 C 11.773268 20 14 22.226732 14 25 C 14 27.773268 11.773268 30 9 30 C 6.2267316 30 4 27.773268 4 25 C 4 22.226732 6.2267316 20 9 20 z M 41 36 C 43.773268 36 46 38.226732 46 41 C 46 43.773268 43.773268 46 41 46 C 38.226732 46 36 43.773268 36 41 C 36 38.226732 38.226732 36 41 36 z" fill="currentColor"/>
-    </symbol>
-  </svg>
+      </footer>
+    </main>
+    <div id="cursor"></div>
+    <div class="preloader"></div>
+    <div class="preloader-top">developer</div>
+    <div class="preloader-bottom">Vladislav Bobyrev</div>
+    <svg class="visualy-hidden" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+      <symbol id="arrow" viewBox="0 0 16 16" fill='none'>
+        <path
+          d="M0.991166 6.11664L14.6254 1.50174C14.6746 1.4849 14.7276 1.48266 14.778 1.4953C14.8284 1.50794 14.8741 1.53492 14.9096 1.57298C14.945 1.61103 14.9687 1.65853 14.9777 1.70975C14.9867 1.76096 14.9807 1.8137 14.9604 1.86158L9.39077 15.1367C9.3687 15.1871 9.33174 15.2295 9.28485 15.2582C9.23797 15.287 9.1834 15.3007 9.1285 15.2975C9.07361 15.2943 9.021 15.2743 8.97777 15.2403C8.93454 15.2064 8.90275 15.1599 8.88668 15.1073L6.81825 9.43957C6.79463 9.35945 6.75271 9.28592 6.69579 9.2248C6.63887 9.16368 6.56852 9.11663 6.49029 9.08739L0.984607 6.62366C0.932604 6.60428 0.887861 6.5693 0.856499 6.52351C0.825138 6.47771 0.808691 6.42335 0.809409 6.36784C0.810127 6.31234 0.827975 6.25842 0.86051 6.21345C0.893046 6.16848 0.938679 6.13467 0.991166 6.11664V6.11664Z"
+          stroke="currentColor"
+          stroke-width="1.04988"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <path
+          d="M14.8527 1.62649L6.73771 9.18625"
+          stroke="currentColor"
+          stroke-width="1.04988"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </symbol>
+      <symbol id="gh">
+        <path xmlns="http://www.w3.org/2000/svg" d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z" fill="currentColor"/>
+      </symbol>
+      <symbol id="tg">
+        <path xmlns="http://www.w3.org/2000/svg" d="M 25.154297 3.984375 C 24.829241 3.998716 24.526384 4.0933979 24.259766 4.2011719 C 24.010014 4.3016357 23.055766 4.7109106 21.552734 5.3554688 C 20.048394 6.0005882 18.056479 6.855779 15.931641 7.7695312 C 11.681964 9.5970359 6.9042108 11.654169 4.4570312 12.707031 C 4.3650097 12.746607 4.0439208 12.849183 3.703125 13.115234 C 3.3623292 13.381286 3 13.932585 3 14.546875 C 3 15.042215 3.2360676 15.534319 3.5332031 15.828125 C 3.8303386 16.121931 4.144747 16.267067 4.4140625 16.376953 C 5.3912284 16.775666 8.4218473 18.015862 8.9941406 18.25 C 9.195546 18.866983 10.29249 22.222526 10.546875 23.044922 C 10.714568 23.587626 10.874198 23.927519 11.082031 24.197266 C 11.185948 24.332139 11.306743 24.45034 11.453125 24.542969 C 11.511635 24.579989 11.575789 24.608506 11.640625 24.634766 L 11.644531 24.636719 C 11.659471 24.642719 11.67235 24.652903 11.6875 24.658203 C 11.716082 24.668202 11.735202 24.669403 11.773438 24.677734 C 11.925762 24.726927 12.079549 24.757812 12.216797 24.757812 C 12.80196 24.757814 13.160156 24.435547 13.160156 24.435547 L 13.181641 24.419922 L 16.191406 21.816406 L 19.841797 25.269531 C 19.893193 25.342209 20.372542 26 21.429688 26 C 22.057386 26 22.555319 25.685026 22.875 25.349609 C 23.194681 25.014192 23.393848 24.661807 23.478516 24.21875 L 23.478516 24.216797 C 23.557706 23.798129 26.921875 6.5273437 26.921875 6.5273438 L 26.916016 6.5507812 C 27.014496 6.1012683 27.040303 5.6826405 26.931641 5.2695312 C 26.822973 4.8564222 26.536648 4.4608905 26.181641 4.2480469 C 25.826669 4.0352506 25.479353 3.9700339 25.154297 3.984375 z M 24.966797 6.0742188 C 24.961997 6.1034038 24.970391 6.0887279 24.962891 6.1230469 L 24.960938 6.1347656 L 24.958984 6.1464844 C 24.958984 6.1464844 21.636486 23.196371 21.513672 23.845703 C 21.522658 23.796665 21.481573 23.894167 21.439453 23.953125 C 21.379901 23.91208 21.257812 23.859375 21.257812 23.859375 L 21.238281 23.837891 L 16.251953 19.121094 L 12.726562 22.167969 L 13.775391 17.96875 C 13.775391 17.96875 20.331562 11.182109 20.726562 10.787109 C 21.044563 10.471109 21.111328 10.360953 21.111328 10.251953 C 21.111328 10.105953 21.035234 10 20.865234 10 C 20.712234 10 20.506484 10.14875 20.396484 10.21875 C 18.963383 11.132295 12.671823 14.799141 9.8515625 16.439453 C 9.4033769 16.256034 6.2896636 14.981472 5.234375 14.550781 C 5.242365 14.547281 5.2397349 14.548522 5.2480469 14.544922 C 7.6958673 13.491784 12.47163 11.434667 16.720703 9.6074219 C 18.84524 8.6937992 20.838669 7.8379587 22.341797 7.1933594 C 23.821781 6.5586849 24.850125 6.1218894 24.966797 6.0742188 z" fill="currentColor"/>
+      </symbol>
+      <symbol id="share" viewBox="0 0 48 48" fill="none">
+        <path xmlns="http://www.w3.org/2000/svg" d="M 41 2 C 37.145851 2 34 5.1458514 34 9 C 34 10.842988 34.724355 12.518937 35.896484 13.771484 L 27.525391 24 L 15.919922 24 C 15.430748 20.617539 12.513828 18 9 18 C 5.1458514 18 2 21.145851 2 25 C 2 28.854149 5.1458514 32 9 32 C 12.513828 32 15.430748 29.382461 15.919922 26 L 27.501953 26 L 35.535156 36.640625 C 34.5767 37.838633 34 39.353257 34 41 C 34 44.854149 37.145851 48 41 48 C 44.854149 48 48 44.854149 48 41 C 48 37.145851 44.854149 34 41 34 C 39.515247 34 38.13907 34.471256 37.003906 35.265625 L 29.271484 25.025391 L 37.455078 15.021484 C 38.496931 15.638103 39.706395 16 41 16 C 44.854149 16 48 12.854149 48 9 C 48 5.1458514 44.854149 2 41 2 z M 41 4 C 43.773268 4 46 6.2267316 46 9 C 46 11.773268 43.773268 14 41 14 C 38.226732 14 36 11.773268 36 9 C 36 6.2267316 38.226732 4 41 4 z M 9 20 C 11.773268 20 14 22.226732 14 25 C 14 27.773268 11.773268 30 9 30 C 6.2267316 30 4 27.773268 4 25 C 4 22.226732 6.2267316 20 9 20 z M 41 36 C 43.773268 36 46 38.226732 46 41 C 46 43.773268 43.773268 46 41 46 C 38.226732 46 36 43.773268 36 41 C 36 38.226732 38.226732 36 41 36 z" fill="currentColor"/>
+      </symbol>
+    </svg>
+  </div>
+  <!-- barba -->
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@barba/core"></script>
   <script src="./src/js/index.js"></script>
+  <script src="./src/js/barba.js"></script>
   <script src="./src/js/customCursor.js"></script>
 </body>
 

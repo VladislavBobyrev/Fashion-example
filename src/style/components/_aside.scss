@@ -11,14 +11,13 @@
   flex-direction: column;
   justify-content: space-between;
   border-left: 1px solid $primary;
-  overflow: hidden;
 }
 
 .aside-share {
   position: fixed;
   z-index: 0;
   bottom: 0;
-  right: 60px;
+  right: 50px;
   display: flex;
   transform: translateX(150%);
   transition: transform 0.2s ease-in-out;
